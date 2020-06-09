@@ -10,23 +10,23 @@ Prerequisites:
 ## Install
 
 1.	Connect via SSH to iOS device:
-```
+```shell
 ssh root@192.168.X.X
 ```
 2.	Install keychaineditor:
-```
+```shell
 wget https://github.com/NitinJami/keychaineditor/raw/master/keychaineditor.deb
 dpkg -i keychaineditor.deb
 ```
 3.	Check installation:
-```
+```shell
 keychaineditor –v
 ```
 
 ## How to Use
 
 Try to find something in keychain with command
-```
+```shell
 keychaineditor -f <app name>
 ```
 

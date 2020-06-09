@@ -11,7 +11,7 @@ few things in code (since 2016 few flags became deprecated).
 ## Why solution with LAContext is less secure
 
 Objective-C code for Local Authentication Context looks like this:
-```
+```objectivec
 - (void)localAuthContextImplementation {
     LAContext *myContext = [[LAContext alloc] init];
     NSError *authError = nil;
@@ -45,7 +45,7 @@ That's not good, but luckily for us, there is another way.
 ## About SecItemAdd/SecItemCopyMatching implementation
 
 Safe implementation may look like this (for Swift example - check [Apple's article](https://developer.apple.com/documentation/localauthentication/accessing_keychain_items_with_face_id_or_touch_id)):
-```
+```objectivec
 - (void)secureImplementationInitialWrite {
     NSString *somePasswordToSave = @"S3cret_P@$$w0rd";
     CFErrorRef error = NULL;
