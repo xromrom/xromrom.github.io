@@ -46,4 +46,4 @@ Unfortunately, if we're doing black box review of app (aka penetration testing) 
 ## Mitigations
 Few options are exist:
 * Turn off synchronisation with Files app by deleting keys ```LSSupportsOpeningDocumentsInPlace``` and ```UIFileSharingEnabled``` from ```Info.plist``` file.
-* To hide data from user we can save files to other application folders: ```Library```, ```Library/Application Support Directory```. But we must be careful about saving to these folders – their content is persisted and included in the iCloud and iTunes backups.
+* To hide data from user we can save files to other application folders: ```Library```, ```Library/Application Support Directory```. But we must be careful about saving to these folders – [their content is persisted and included in the iCloud and iTunes backups](how_to_prevent_leaking_data_via_backups.md).
