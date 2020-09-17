@@ -4,7 +4,7 @@ In this article we are going to review 2 different ways of using TouchID feature
 1. via LAContext - less secure way
 2. and better approach - writing/reading from Keychain
 
-First of all, thanks to David Lindner for [his great article](https://nvisium.com/blog/2016/06/22/dont-touch-me-that-way.html) about TouchID. I totally recommend you
+First of all, thanks to David Lindner for [his great article](https://blog.nvisium.com/dont-touch-me-that-way) about TouchID. I totally recommend you
 to check it. In my article I just tried to describe things shorter, plus I've updated
 few things in code (since 2016 few flags became deprecated).
 
