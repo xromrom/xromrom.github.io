@@ -5,5 +5,6 @@
 * [How to Prevent Leak of Data via Files App](./articles/how_to_prevent_leak_of_data_via_files_app.md)
 * [How to Prevent Leak of Data via iCloud or iTunes backups](./articles/how_to_prevent_leaking_data_via_backups.md)
 
-# ReactNative security articles:
+# React & ReactNative security articles:
 * [ReactNative security tips](./articles/rn_security_tips.md)
+* [ReactJS security tips](./articles/react_security_tips.md)
