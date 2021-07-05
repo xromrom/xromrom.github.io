@@ -8,3 +8,6 @@
 # React & ReactNative security articles:
 * [ReactNative security tips](./articles/rn_security_tips.md)
 * [ReactJS security tips](./articles/react_security_tips.md)
+
+# Other:
+* [Check your Firebase Keys on excessive functionality](./articles/fcm_keys.md)
