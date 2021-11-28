@@ -11,6 +11,10 @@ The open-source components that your app uses may have known vulnerabilities, to
 ```shell
 npm audit
 ```
+or:
+```shell
+yarn audit
+```
 
 ## 2. Check that your app doesn't enable HTTP in production version
 You need to review the files that may contain unsafe settings:

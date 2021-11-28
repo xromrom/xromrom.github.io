@@ -22,6 +22,10 @@ The open-source components that your app uses may have known vulnerabilities, to
 ```shell
 npm audit
 ```
+or:
+```shell
+yarn audit
+```
 
 ## 3. Scan source code with an open-source tool called semgrep
 
