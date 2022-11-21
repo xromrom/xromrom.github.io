@@ -5,7 +5,7 @@ In this tutorial I show how to install and use it.
 
 Prerequisites:
 * jailbroken iOS 12.4.6 device
-* installed OpenSSH
+* installed OpenSSH, OpenSSL (from Cydia)
 
 ## Install
 
